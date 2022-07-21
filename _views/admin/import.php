@@ -4,7 +4,7 @@
   id="ufc-datatable-dropzone" 
   method="post" 
   class="dropzone wrapper">
-  <h2>Drag and drop or select an SQL file</h2>
+  <h2>Drag and drop or select a JSON file</h2>
   <br />
   <input type="hidden" name="action" value="ufc_datatable_json_import" />
   <input type="hidden" name="_wpnonce" value="<?= wp_create_nonce('ufc_datatable_json_import') ?>" />
